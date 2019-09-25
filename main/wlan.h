@@ -3,6 +3,10 @@
  * Modify with your own values
  */
 
-#define WIFI_SSID ssid
-#define WIFI_PASS pass
+#ifndef WLAN_H
+#define WLAN_H
 
+#define WIFI_SSID "SSID"
+#define WIFI_PASS "pass"
+
+#endif /* WLAN_H */
